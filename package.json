@@ -1,0 +1,37 @@
+{
+  "name": "folder-structure",
+  "version": "1.0.0",
+  "description": "Automatically generate and monitor your project folder structure. The output is a .txt file that shows the folder and file hierarchy in a tree view.",
+  "main": "index.js",
+  "bin": {
+    "folder-structure": "./index.js"
+  },
+  "scripts": {
+    "generate": "node index.js",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fitri-hy/folder-structure-library.git"
+  },
+  "keywords": [
+    "folder-structure",
+    "project-structure",
+    "file-tree",
+    "tree-view",
+    "directory-visualizer",
+    "filesystem",
+    "cli-tool",
+    "structure-generator",
+    "folder-watcher"
+  ],
+  "author": "FhyLabs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fitri-hy/folder-structure-library/issues"
+  },
+  "homepage": "https://github.com/fitri-hy/folder-structure-library#readme",
+  "devDependencies": {
+    "chokidar": "^4.0.3"
+  }
+}
